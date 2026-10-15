@@ -1,0 +1,30 @@
+{
+  "layouts": [
+    {
+      "viewportWidth": 1920,
+      "viewportHeight": 1080,
+      "documentWidth": 1920,
+      "documentHeight": 1080
+    },
+    {
+      "viewportWidth": 2560,
+      "viewportHeight": 1440,
+      "documentWidth": 2560,
+      "documentHeight": 1440
+    },
+    {
+      "viewportWidth": 3840,
+      "viewportHeight": 2160,
+      "documentWidth": 3840,
+      "documentHeight": 2160
+    },
+    {
+      "viewportWidth": 1366,
+      "viewportHeight": 768,
+      "documentWidth": 1366,
+      "documentHeight": 1415
+    }
+  ],
+  "errors": [],
+  "routes": "三条路线全部通过；B含复查失败退回；状态刷新持久化；历史质量风险保留"
+}

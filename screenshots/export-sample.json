@@ -1,0 +1,3776 @@
+{
+  "说明": "模拟数据｜功能演示；非真实观测记录",
+  "导出时间": "2026-10-13 09:10",
+  "version": 1,
+  "minute": 550,
+  "stations": [
+    {
+      "id": "A",
+      "name": "站点A",
+      "eco": "森林观测",
+      "role": "站点负责人",
+      "longitude": 119.72,
+      "latitude": 30.34,
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "固定模拟经纬度（杭州西部演示范围，非实际部署站址）",
+      "isMock": true
+    },
+    {
+      "id": "B",
+      "name": "站点B",
+      "eco": "草地观测",
+      "role": "站点负责人",
+      "longitude": 119.91,
+      "latitude": 30.405,
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "固定模拟经纬度（杭州西部演示范围，非实际部署站址）",
+      "isMock": true
+    },
+    {
+      "id": "C",
+      "name": "站点C",
+      "eco": "农田观测",
+      "role": "站点负责人",
+      "longitude": 120.025,
+      "latitude": 30.355,
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "固定模拟经纬度（杭州西部演示范围，非实际部署站址）",
+      "isMock": true
+    },
+    {
+      "id": "D",
+      "name": "站点D",
+      "eco": "湿地观测",
+      "role": "站点负责人",
+      "longitude": 120.06,
+      "latitude": 30.275,
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "固定模拟经纬度（杭州西部演示范围，非实际部署站址）",
+      "isMock": true
+    },
+    {
+      "id": "E",
+      "name": "站点E",
+      "eco": "灌丛观测",
+      "role": "站点负责人",
+      "longitude": 119.885,
+      "latitude": 30.225,
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "固定模拟经纬度（杭州西部演示范围，非实际部署站址）",
+      "isMock": true
+    },
+    {
+      "id": "F",
+      "name": "站点F",
+      "eco": "城市生态观测",
+      "role": "站点负责人",
+      "longitude": 120.155,
+      "latitude": 30.285,
+      "coordinateSystem": "WGS84",
+      "coordinateSource": "固定模拟经纬度（杭州西部演示范围，非实际部署站址）",
+      "isMock": true
+    }
+  ],
+  "devices": [
+    {
+      "id": "A-met",
+      "stationId": "A",
+      "name": "气象采集设备",
+      "connection": "在线"
+    },
+    {
+      "id": "A-soil",
+      "stationId": "A",
+      "name": "土壤水分传感器",
+      "connection": "在线"
+    },
+    {
+      "id": "B-met",
+      "stationId": "B",
+      "name": "气象采集设备",
+      "connection": "在线"
+    },
+    {
+      "id": "B-soil",
+      "stationId": "B",
+      "name": "土壤水分传感器",
+      "connection": "在线"
+    },
+    {
+      "id": "C-met",
+      "stationId": "C",
+      "name": "气象采集设备",
+      "connection": "在线"
+    },
+    {
+      "id": "C-soil",
+      "stationId": "C",
+      "name": "土壤水分传感器",
+      "connection": "在线"
+    },
+    {
+      "id": "D-met",
+      "stationId": "D",
+      "name": "气象采集设备",
+      "connection": "在线"
+    },
+    {
+      "id": "D-soil",
+      "stationId": "D",
+      "name": "土壤水分传感器",
+      "connection": "在线"
+    },
+    {
+      "id": "E-met",
+      "stationId": "E",
+      "name": "气象采集设备",
+      "connection": "在线"
+    },
+    {
+      "id": "E-soil",
+      "stationId": "E",
+      "name": "土壤水分传感器",
+      "connection": "在线"
+    },
+    {
+      "id": "F-met",
+      "stationId": "F",
+      "name": "气象采集设备",
+      "connection": "在线"
+    },
+    {
+      "id": "F-soil",
+      "stationId": "F",
+      "name": "土壤水分传感器",
+      "connection": "在线"
+    },
+    {
+      "id": "D-li",
+      "stationId": "D",
+      "name": "LI-7500DS 二氧化碳/水汽分析仪",
+      "connection": "在线"
+    },
+    {
+      "id": "E-et",
+      "stationId": "E",
+      "name": "255-700E 参考蒸散发仪",
+      "connection": "在线"
+    }
+  ],
+  "observations": [
+    {
+      "id": "A-met-obs",
+      "stationId": "A",
+      "deviceId": "A-met",
+      "name": "气象连续观测"
+    },
+    {
+      "id": "A-soil-obs",
+      "stationId": "A",
+      "deviceId": "A-soil",
+      "name": "土壤水分观测"
+    },
+    {
+      "id": "B-met-obs",
+      "stationId": "B",
+      "deviceId": "B-met",
+      "name": "气象连续观测"
+    },
+    {
+      "id": "B-soil-obs",
+      "stationId": "B",
+      "deviceId": "B-soil",
+      "name": "土壤水分观测"
+    },
+    {
+      "id": "C-met-obs",
+      "stationId": "C",
+      "deviceId": "C-met",
+      "name": "气象连续观测"
+    },
+    {
+      "id": "C-soil-obs",
+      "stationId": "C",
+      "deviceId": "C-soil",
+      "name": "土壤水分观测"
+    },
+    {
+      "id": "D-met-obs",
+      "stationId": "D",
+      "deviceId": "D-met",
+      "name": "气象连续观测"
+    },
+    {
+      "id": "D-soil-obs",
+      "stationId": "D",
+      "deviceId": "D-soil",
+      "name": "土壤水分观测"
+    },
+    {
+      "id": "E-met-obs",
+      "stationId": "E",
+      "deviceId": "E-met",
+      "name": "气象连续观测"
+    },
+    {
+      "id": "E-soil-obs",
+      "stationId": "E",
+      "deviceId": "E-soil",
+      "name": "土壤水分观测"
+    },
+    {
+      "id": "F-met-obs",
+      "stationId": "F",
+      "deviceId": "F-met",
+      "name": "气象连续观测"
+    },
+    {
+      "id": "F-soil-obs",
+      "stationId": "F",
+      "deviceId": "F-soil",
+      "name": "土壤水分观测"
+    },
+    {
+      "id": "D-li-obs",
+      "stationId": "D",
+      "deviceId": "D-li",
+      "name": "碳水观测"
+    },
+    {
+      "id": "E-et-obs",
+      "stationId": "E",
+      "deviceId": "E-et",
+      "name": "参考蒸散观测"
+    }
+  ],
+  "series": [
+    {
+      "id": "A-met-obs-0",
+      "taskId": "A-met-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "A-met-obs-1",
+      "taskId": "A-met-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "A-met-obs-2",
+      "taskId": "A-met-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "A-met-obs-3",
+      "taskId": "A-met-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "A-met-obs-4",
+      "taskId": "A-met-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "A-met-obs-5",
+      "taskId": "A-met-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "A-met-obs-6",
+      "taskId": "A-met-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "A-met-obs-7",
+      "taskId": "A-met-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "A-met-obs-8",
+      "taskId": "A-met-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "A-met-obs-9",
+      "taskId": "A-met-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "A-met-obs-10",
+      "taskId": "A-met-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "A-met-obs-11",
+      "taskId": "A-met-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "A-met-obs-12",
+      "taskId": "A-met-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "A-met-obs-13",
+      "taskId": "A-met-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "A-met-obs-14",
+      "taskId": "A-met-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "A-met-obs-15",
+      "taskId": "A-met-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "A-met-obs-16",
+      "taskId": "A-met-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "A-met-obs-17",
+      "taskId": "A-met-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "A-met-obs-18",
+      "taskId": "A-met-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "A-met-obs-19",
+      "taskId": "A-met-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "A-met-obs-20",
+      "taskId": "A-met-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "A-met-obs-21",
+      "taskId": "A-met-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "A-met-obs-22",
+      "taskId": "A-met-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "A-met-obs-23",
+      "taskId": "A-met-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "A-soil-obs-0",
+      "taskId": "A-soil-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "A-soil-obs-1",
+      "taskId": "A-soil-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "A-soil-obs-2",
+      "taskId": "A-soil-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "A-soil-obs-3",
+      "taskId": "A-soil-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "A-soil-obs-4",
+      "taskId": "A-soil-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "A-soil-obs-5",
+      "taskId": "A-soil-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "A-soil-obs-6",
+      "taskId": "A-soil-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "A-soil-obs-7",
+      "taskId": "A-soil-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "A-soil-obs-8",
+      "taskId": "A-soil-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "A-soil-obs-9",
+      "taskId": "A-soil-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "A-soil-obs-10",
+      "taskId": "A-soil-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "A-soil-obs-11",
+      "taskId": "A-soil-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "A-soil-obs-12",
+      "taskId": "A-soil-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "A-soil-obs-13",
+      "taskId": "A-soil-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "A-soil-obs-14",
+      "taskId": "A-soil-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "A-soil-obs-15",
+      "taskId": "A-soil-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "A-soil-obs-16",
+      "taskId": "A-soil-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "A-soil-obs-17",
+      "taskId": "A-soil-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "A-soil-obs-18",
+      "taskId": "A-soil-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "A-soil-obs-19",
+      "taskId": "A-soil-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "A-soil-obs-20",
+      "taskId": "A-soil-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "A-soil-obs-21",
+      "taskId": "A-soil-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "A-soil-obs-22",
+      "taskId": "A-soil-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "A-soil-obs-23",
+      "taskId": "A-soil-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "B-met-obs-0",
+      "taskId": "B-met-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "B-met-obs-1",
+      "taskId": "B-met-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "B-met-obs-2",
+      "taskId": "B-met-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "B-met-obs-3",
+      "taskId": "B-met-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "B-met-obs-4",
+      "taskId": "B-met-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "B-met-obs-5",
+      "taskId": "B-met-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "B-met-obs-6",
+      "taskId": "B-met-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "B-met-obs-7",
+      "taskId": "B-met-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "B-met-obs-8",
+      "taskId": "B-met-obs",
+      "hour": 8,
+      "record": "补传记录",
+      "quality": "待检查",
+      "source": "人工确认站内实际保存记录后补传（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "B-met-obs-9",
+      "taskId": "B-met-obs",
+      "hour": 9,
+      "record": "补传记录",
+      "quality": "待检查",
+      "source": "人工确认站内实际保存记录后补传（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "B-met-obs-10",
+      "taskId": "B-met-obs",
+      "hour": 10,
+      "record": "补传记录",
+      "quality": "待检查",
+      "source": "人工确认站内实际保存记录后补传（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "B-met-obs-11",
+      "taskId": "B-met-obs",
+      "hour": 11,
+      "record": "补传记录",
+      "quality": "待检查",
+      "source": "人工确认站内实际保存记录后补传（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "B-met-obs-12",
+      "taskId": "B-met-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "B-met-obs-13",
+      "taskId": "B-met-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "B-met-obs-14",
+      "taskId": "B-met-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "B-met-obs-15",
+      "taskId": "B-met-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "B-met-obs-16",
+      "taskId": "B-met-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "B-met-obs-17",
+      "taskId": "B-met-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "B-met-obs-18",
+      "taskId": "B-met-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "B-met-obs-19",
+      "taskId": "B-met-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "B-met-obs-20",
+      "taskId": "B-met-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "B-met-obs-21",
+      "taskId": "B-met-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "B-met-obs-22",
+      "taskId": "B-met-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "B-met-obs-23",
+      "taskId": "B-met-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "B-soil-obs-0",
+      "taskId": "B-soil-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "B-soil-obs-1",
+      "taskId": "B-soil-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "B-soil-obs-2",
+      "taskId": "B-soil-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "B-soil-obs-3",
+      "taskId": "B-soil-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "B-soil-obs-4",
+      "taskId": "B-soil-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "B-soil-obs-5",
+      "taskId": "B-soil-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "B-soil-obs-6",
+      "taskId": "B-soil-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "B-soil-obs-7",
+      "taskId": "B-soil-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "B-soil-obs-8",
+      "taskId": "B-soil-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "B-soil-obs-9",
+      "taskId": "B-soil-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "B-soil-obs-10",
+      "taskId": "B-soil-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "B-soil-obs-11",
+      "taskId": "B-soil-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "B-soil-obs-12",
+      "taskId": "B-soil-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "B-soil-obs-13",
+      "taskId": "B-soil-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "B-soil-obs-14",
+      "taskId": "B-soil-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "B-soil-obs-15",
+      "taskId": "B-soil-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "B-soil-obs-16",
+      "taskId": "B-soil-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "B-soil-obs-17",
+      "taskId": "B-soil-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "B-soil-obs-18",
+      "taskId": "B-soil-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "B-soil-obs-19",
+      "taskId": "B-soil-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "B-soil-obs-20",
+      "taskId": "B-soil-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "B-soil-obs-21",
+      "taskId": "B-soil-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "B-soil-obs-22",
+      "taskId": "B-soil-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "B-soil-obs-23",
+      "taskId": "B-soil-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "C-met-obs-0",
+      "taskId": "C-met-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "C-met-obs-1",
+      "taskId": "C-met-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "C-met-obs-2",
+      "taskId": "C-met-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "C-met-obs-3",
+      "taskId": "C-met-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "C-met-obs-4",
+      "taskId": "C-met-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "C-met-obs-5",
+      "taskId": "C-met-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "C-met-obs-6",
+      "taskId": "C-met-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "C-met-obs-7",
+      "taskId": "C-met-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "C-met-obs-8",
+      "taskId": "C-met-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "C-met-obs-9",
+      "taskId": "C-met-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "C-met-obs-10",
+      "taskId": "C-met-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "C-met-obs-11",
+      "taskId": "C-met-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "C-met-obs-12",
+      "taskId": "C-met-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "C-met-obs-13",
+      "taskId": "C-met-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "C-met-obs-14",
+      "taskId": "C-met-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "C-met-obs-15",
+      "taskId": "C-met-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "C-met-obs-16",
+      "taskId": "C-met-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "C-met-obs-17",
+      "taskId": "C-met-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "C-met-obs-18",
+      "taskId": "C-met-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "C-met-obs-19",
+      "taskId": "C-met-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "C-met-obs-20",
+      "taskId": "C-met-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "C-met-obs-21",
+      "taskId": "C-met-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "C-met-obs-22",
+      "taskId": "C-met-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "C-met-obs-23",
+      "taskId": "C-met-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "C-soil-obs-0",
+      "taskId": "C-soil-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "C-soil-obs-1",
+      "taskId": "C-soil-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "C-soil-obs-2",
+      "taskId": "C-soil-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "C-soil-obs-3",
+      "taskId": "C-soil-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "C-soil-obs-4",
+      "taskId": "C-soil-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "C-soil-obs-5",
+      "taskId": "C-soil-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "C-soil-obs-6",
+      "taskId": "C-soil-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "C-soil-obs-7",
+      "taskId": "C-soil-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "C-soil-obs-8",
+      "taskId": "C-soil-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "C-soil-obs-9",
+      "taskId": "C-soil-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "C-soil-obs-10",
+      "taskId": "C-soil-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "C-soil-obs-11",
+      "taskId": "C-soil-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "C-soil-obs-12",
+      "taskId": "C-soil-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "C-soil-obs-13",
+      "taskId": "C-soil-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "C-soil-obs-14",
+      "taskId": "C-soil-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "C-soil-obs-15",
+      "taskId": "C-soil-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "C-soil-obs-16",
+      "taskId": "C-soil-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "C-soil-obs-17",
+      "taskId": "C-soil-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "C-soil-obs-18",
+      "taskId": "C-soil-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "C-soil-obs-19",
+      "taskId": "C-soil-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "C-soil-obs-20",
+      "taskId": "C-soil-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "C-soil-obs-21",
+      "taskId": "C-soil-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "C-soil-obs-22",
+      "taskId": "C-soil-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "C-soil-obs-23",
+      "taskId": "C-soil-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "D-met-obs-0",
+      "taskId": "D-met-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "D-met-obs-1",
+      "taskId": "D-met-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "D-met-obs-2",
+      "taskId": "D-met-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "D-met-obs-3",
+      "taskId": "D-met-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "D-met-obs-4",
+      "taskId": "D-met-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "D-met-obs-5",
+      "taskId": "D-met-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "D-met-obs-6",
+      "taskId": "D-met-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "D-met-obs-7",
+      "taskId": "D-met-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "D-met-obs-8",
+      "taskId": "D-met-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "D-met-obs-9",
+      "taskId": "D-met-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "D-met-obs-10",
+      "taskId": "D-met-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "D-met-obs-11",
+      "taskId": "D-met-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "D-met-obs-12",
+      "taskId": "D-met-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "D-met-obs-13",
+      "taskId": "D-met-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "D-met-obs-14",
+      "taskId": "D-met-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "D-met-obs-15",
+      "taskId": "D-met-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "D-met-obs-16",
+      "taskId": "D-met-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "D-met-obs-17",
+      "taskId": "D-met-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "D-met-obs-18",
+      "taskId": "D-met-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "D-met-obs-19",
+      "taskId": "D-met-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "D-met-obs-20",
+      "taskId": "D-met-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "D-met-obs-21",
+      "taskId": "D-met-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "D-met-obs-22",
+      "taskId": "D-met-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "D-met-obs-23",
+      "taskId": "D-met-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "D-soil-obs-0",
+      "taskId": "D-soil-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "D-soil-obs-1",
+      "taskId": "D-soil-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "D-soil-obs-2",
+      "taskId": "D-soil-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "D-soil-obs-3",
+      "taskId": "D-soil-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "D-soil-obs-4",
+      "taskId": "D-soil-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "D-soil-obs-5",
+      "taskId": "D-soil-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "D-soil-obs-6",
+      "taskId": "D-soil-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "D-soil-obs-7",
+      "taskId": "D-soil-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "D-soil-obs-8",
+      "taskId": "D-soil-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "D-soil-obs-9",
+      "taskId": "D-soil-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "D-soil-obs-10",
+      "taskId": "D-soil-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "D-soil-obs-11",
+      "taskId": "D-soil-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "D-soil-obs-12",
+      "taskId": "D-soil-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "D-soil-obs-13",
+      "taskId": "D-soil-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "D-soil-obs-14",
+      "taskId": "D-soil-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "D-soil-obs-15",
+      "taskId": "D-soil-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "D-soil-obs-16",
+      "taskId": "D-soil-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "D-soil-obs-17",
+      "taskId": "D-soil-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "D-soil-obs-18",
+      "taskId": "D-soil-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "D-soil-obs-19",
+      "taskId": "D-soil-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "D-soil-obs-20",
+      "taskId": "D-soil-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "D-soil-obs-21",
+      "taskId": "D-soil-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "D-soil-obs-22",
+      "taskId": "D-soil-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "D-soil-obs-23",
+      "taskId": "D-soil-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "E-met-obs-0",
+      "taskId": "E-met-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "E-met-obs-1",
+      "taskId": "E-met-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "E-met-obs-2",
+      "taskId": "E-met-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "E-met-obs-3",
+      "taskId": "E-met-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "E-met-obs-4",
+      "taskId": "E-met-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "E-met-obs-5",
+      "taskId": "E-met-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "E-met-obs-6",
+      "taskId": "E-met-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "E-met-obs-7",
+      "taskId": "E-met-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "E-met-obs-8",
+      "taskId": "E-met-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "E-met-obs-9",
+      "taskId": "E-met-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "E-met-obs-10",
+      "taskId": "E-met-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "E-met-obs-11",
+      "taskId": "E-met-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "E-met-obs-12",
+      "taskId": "E-met-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "E-met-obs-13",
+      "taskId": "E-met-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "E-met-obs-14",
+      "taskId": "E-met-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "E-met-obs-15",
+      "taskId": "E-met-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "E-met-obs-16",
+      "taskId": "E-met-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "E-met-obs-17",
+      "taskId": "E-met-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "E-met-obs-18",
+      "taskId": "E-met-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "E-met-obs-19",
+      "taskId": "E-met-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "E-met-obs-20",
+      "taskId": "E-met-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "E-met-obs-21",
+      "taskId": "E-met-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "E-met-obs-22",
+      "taskId": "E-met-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "E-met-obs-23",
+      "taskId": "E-met-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "E-soil-obs-0",
+      "taskId": "E-soil-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "E-soil-obs-1",
+      "taskId": "E-soil-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "E-soil-obs-2",
+      "taskId": "E-soil-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "E-soil-obs-3",
+      "taskId": "E-soil-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "E-soil-obs-4",
+      "taskId": "E-soil-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "E-soil-obs-5",
+      "taskId": "E-soil-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "E-soil-obs-6",
+      "taskId": "E-soil-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "E-soil-obs-7",
+      "taskId": "E-soil-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "E-soil-obs-8",
+      "taskId": "E-soil-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "E-soil-obs-9",
+      "taskId": "E-soil-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "E-soil-obs-10",
+      "taskId": "E-soil-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "E-soil-obs-11",
+      "taskId": "E-soil-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "E-soil-obs-12",
+      "taskId": "E-soil-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "E-soil-obs-13",
+      "taskId": "E-soil-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "E-soil-obs-14",
+      "taskId": "E-soil-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "E-soil-obs-15",
+      "taskId": "E-soil-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "E-soil-obs-16",
+      "taskId": "E-soil-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "E-soil-obs-17",
+      "taskId": "E-soil-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "E-soil-obs-18",
+      "taskId": "E-soil-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "E-soil-obs-19",
+      "taskId": "E-soil-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "E-soil-obs-20",
+      "taskId": "E-soil-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "E-soil-obs-21",
+      "taskId": "E-soil-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "E-soil-obs-22",
+      "taskId": "E-soil-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "E-soil-obs-23",
+      "taskId": "E-soil-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "F-met-obs-0",
+      "taskId": "F-met-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "F-met-obs-1",
+      "taskId": "F-met-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "F-met-obs-2",
+      "taskId": "F-met-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "F-met-obs-3",
+      "taskId": "F-met-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "F-met-obs-4",
+      "taskId": "F-met-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "F-met-obs-5",
+      "taskId": "F-met-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "F-met-obs-6",
+      "taskId": "F-met-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "F-met-obs-7",
+      "taskId": "F-met-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "F-met-obs-8",
+      "taskId": "F-met-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "F-met-obs-9",
+      "taskId": "F-met-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "F-met-obs-10",
+      "taskId": "F-met-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "F-met-obs-11",
+      "taskId": "F-met-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "F-met-obs-12",
+      "taskId": "F-met-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "F-met-obs-13",
+      "taskId": "F-met-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "F-met-obs-14",
+      "taskId": "F-met-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "F-met-obs-15",
+      "taskId": "F-met-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "F-met-obs-16",
+      "taskId": "F-met-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "F-met-obs-17",
+      "taskId": "F-met-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "F-met-obs-18",
+      "taskId": "F-met-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "F-met-obs-19",
+      "taskId": "F-met-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "F-met-obs-20",
+      "taskId": "F-met-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "F-met-obs-21",
+      "taskId": "F-met-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "F-met-obs-22",
+      "taskId": "F-met-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "F-met-obs-23",
+      "taskId": "F-met-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "F-soil-obs-0",
+      "taskId": "F-soil-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20
+    },
+    {
+      "id": "F-soil-obs-1",
+      "taskId": "F-soil-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.682941969615793
+    },
+    {
+      "id": "F-soil-obs-2",
+      "taskId": "F-soil-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.818594853651362
+    },
+    {
+      "id": "F-soil-obs-3",
+      "taskId": "F-soil-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.282240016119733
+    },
+    {
+      "id": "F-soil-obs-4",
+      "taskId": "F-soil-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.486395009384143
+    },
+    {
+      "id": "F-soil-obs-5",
+      "taskId": "F-soil-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.082151450673724
+    },
+    {
+      "id": "F-soil-obs-6",
+      "taskId": "F-soil-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.44116900360215
+    },
+    {
+      "id": "F-soil-obs-7",
+      "taskId": "F-soil-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.313973197437576
+    },
+    {
+      "id": "F-soil-obs-8",
+      "taskId": "F-soil-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.978716493246765
+    },
+    {
+      "id": "F-soil-obs-9",
+      "taskId": "F-soil-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.824236970483515
+    },
+    {
+      "id": "F-soil-obs-10",
+      "taskId": "F-soil-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.91195777822126
+    },
+    {
+      "id": "F-soil-obs-11",
+      "taskId": "F-soil-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.000019586898592
+    },
+    {
+      "id": "F-soil-obs-12",
+      "taskId": "F-soil-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.92685416399913
+    },
+    {
+      "id": "F-soil-obs-13",
+      "taskId": "F-soil-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.84033407365328
+    },
+    {
+      "id": "F-soil-obs-14",
+      "taskId": "F-soil-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.98121471138974
+    },
+    {
+      "id": "F-soil-obs-15",
+      "taskId": "F-soil-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.300575680314232
+    },
+    {
+      "id": "F-soil-obs-16",
+      "taskId": "F-soil-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.42419336666987
+    },
+    {
+      "id": "F-soil-obs-17",
+      "taskId": "F-soil-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.077205016240885
+    },
+    {
+      "id": "F-soil-obs-18",
+      "taskId": "F-soil-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 18.49802550645665
+    },
+    {
+      "id": "F-soil-obs-19",
+      "taskId": "F-soil-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 20.299754419325904
+    },
+    {
+      "id": "F-soil-obs-20",
+      "taskId": "F-soil-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.825890501455255
+    },
+    {
+      "id": "F-soil-obs-21",
+      "taskId": "F-soil-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 21.673311277072113
+    },
+    {
+      "id": "F-soil-obs-22",
+      "taskId": "F-soil-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 19.982297381419194
+    },
+    {
+      "id": "F-soil-obs-23",
+      "taskId": "F-soil-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 18.30755919164966
+    },
+    {
+      "id": "D-li-obs-0",
+      "taskId": "D-li-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 92
+    },
+    {
+      "id": "D-li-obs-1",
+      "taskId": "D-li-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 92
+    },
+    {
+      "id": "D-li-obs-2",
+      "taskId": "D-li-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 87
+    },
+    {
+      "id": "D-li-obs-3",
+      "taskId": "D-li-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 85
+    },
+    {
+      "id": "D-li-obs-4",
+      "taskId": "D-li-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 86
+    },
+    {
+      "id": "D-li-obs-5",
+      "taskId": "D-li-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 81
+    },
+    {
+      "id": "D-li-obs-6",
+      "taskId": "D-li-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 78
+    },
+    {
+      "id": "D-li-obs-7",
+      "taskId": "D-li-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 79
+    },
+    {
+      "id": "D-li-obs-8",
+      "taskId": "D-li-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 76
+    },
+    {
+      "id": "D-li-obs-9",
+      "taskId": "D-li-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 71
+    },
+    {
+      "id": "D-li-obs-10",
+      "taskId": "D-li-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 71
+    },
+    {
+      "id": "D-li-obs-11",
+      "taskId": "D-li-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 71
+    },
+    {
+      "id": "D-li-obs-12",
+      "taskId": "D-li-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 65
+    },
+    {
+      "id": "D-li-obs-13",
+      "taskId": "D-li-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 64
+    },
+    {
+      "id": "D-li-obs-14",
+      "taskId": "D-li-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 65
+    },
+    {
+      "id": "D-li-obs-15",
+      "taskId": "D-li-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 60
+    },
+    {
+      "id": "D-li-obs-16",
+      "taskId": "D-li-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 57
+    },
+    {
+      "id": "D-li-obs-17",
+      "taskId": "D-li-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 58
+    },
+    {
+      "id": "D-li-obs-18",
+      "taskId": "D-li-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 55
+    },
+    {
+      "id": "D-li-obs-19",
+      "taskId": "D-li-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 50
+    },
+    {
+      "id": "D-li-obs-20",
+      "taskId": "D-li-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 51
+    },
+    {
+      "id": "D-li-obs-21",
+      "taskId": "D-li-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 50
+    },
+    {
+      "id": "D-li-obs-22",
+      "taskId": "D-li-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 44
+    },
+    {
+      "id": "D-li-obs-23",
+      "taskId": "D-li-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "质量风险",
+      "source": "平台记录（模拟）",
+      "value": 43
+    },
+    {
+      "id": "E-et-obs-0",
+      "taskId": "E-et-obs",
+      "hour": 0,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2
+    },
+    {
+      "id": "E-et-obs-1",
+      "taskId": "E-et-obs",
+      "hour": 1,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2
+    },
+    {
+      "id": "E-et-obs-2",
+      "taskId": "E-et-obs",
+      "hour": 2,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2.2
+    },
+    {
+      "id": "E-et-obs-3",
+      "taskId": "E-et-obs",
+      "hour": 3,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2.2
+    },
+    {
+      "id": "E-et-obs-4",
+      "taskId": "E-et-obs",
+      "hour": 4,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2.4
+    },
+    {
+      "id": "E-et-obs-5",
+      "taskId": "E-et-obs",
+      "hour": 5,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2.4
+    },
+    {
+      "id": "E-et-obs-6",
+      "taskId": "E-et-obs",
+      "hour": 6,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2.6
+    },
+    {
+      "id": "E-et-obs-7",
+      "taskId": "E-et-obs",
+      "hour": 7,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2.6
+    },
+    {
+      "id": "E-et-obs-8",
+      "taskId": "E-et-obs",
+      "hour": 8,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2.8
+    },
+    {
+      "id": "E-et-obs-9",
+      "taskId": "E-et-obs",
+      "hour": 9,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 2.8
+    },
+    {
+      "id": "E-et-obs-10",
+      "taskId": "E-et-obs",
+      "hour": 10,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 3
+    },
+    {
+      "id": "E-et-obs-11",
+      "taskId": "E-et-obs",
+      "hour": 11,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 3
+    },
+    {
+      "id": "E-et-obs-12",
+      "taskId": "E-et-obs",
+      "hour": 12,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 3.2
+    },
+    {
+      "id": "E-et-obs-13",
+      "taskId": "E-et-obs",
+      "hour": 13,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 3.2
+    },
+    {
+      "id": "E-et-obs-14",
+      "taskId": "E-et-obs",
+      "hour": 14,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 3.4000000000000004
+    },
+    {
+      "id": "E-et-obs-15",
+      "taskId": "E-et-obs",
+      "hour": 15,
+      "record": "已有记录",
+      "quality": "已检查",
+      "source": "平台记录（模拟）",
+      "value": 3.4000000000000004
+    },
+    {
+      "id": "E-et-obs-16",
+      "taskId": "E-et-obs",
+      "hour": 16,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 3.6
+    },
+    {
+      "id": "E-et-obs-17",
+      "taskId": "E-et-obs",
+      "hour": 17,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 3.6
+    },
+    {
+      "id": "E-et-obs-18",
+      "taskId": "E-et-obs",
+      "hour": 18,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 3.6
+    },
+    {
+      "id": "E-et-obs-19",
+      "taskId": "E-et-obs",
+      "hour": 19,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 3.6
+    },
+    {
+      "id": "E-et-obs-20",
+      "taskId": "E-et-obs",
+      "hour": 20,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 3.6
+    },
+    {
+      "id": "E-et-obs-21",
+      "taskId": "E-et-obs",
+      "hour": 21,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 3.6
+    },
+    {
+      "id": "E-et-obs-22",
+      "taskId": "E-et-obs",
+      "hour": 22,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 3.6
+    },
+    {
+      "id": "E-et-obs-23",
+      "taskId": "E-et-obs",
+      "hour": 23,
+      "record": "已有记录",
+      "quality": "待检查",
+      "source": "平台记录（模拟）",
+      "value": 3.6
+    }
+  ],
+  "incidents": [
+    {
+      "id": "INC-B",
+      "stationId": "B",
+      "deviceId": "B-met",
+      "taskIds": [
+        "B-met-obs"
+      ],
+      "title": "气象观测记录出现缺口",
+      "kind": "gap",
+      "status": "已关闭",
+      "found": "2026-10-12 12:10",
+      "recipients": [
+        "站点负责人",
+        "运维人员"
+      ]
+    },
+    {
+      "id": "INC-D",
+      "stationId": "D",
+      "deviceId": "D-li",
+      "taskIds": [
+        "D-li-obs"
+      ],
+      "title": "光学信号持续走低",
+      "kind": "optical",
+      "status": "已关闭",
+      "found": "2026-10-12 13:20",
+      "recipients": [
+        "站点负责人",
+        "数据审核人员"
+      ]
+    },
+    {
+      "id": "INC-E",
+      "stationId": "E",
+      "deviceId": "E-et",
+      "taskIds": [
+        "E-et-obs"
+      ],
+      "title": "参考蒸散累计计量停滞",
+      "kind": "water",
+      "status": "已关闭",
+      "found": "2026-10-12 14:00",
+      "recipients": [
+        "站点负责人",
+        "运维人员"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-5",
+      "incidentId": "INC-B",
+      "step": "站内原始记录",
+      "result": "记录完整",
+      "note": "",
+      "time": "2026-10-13 00:05",
+      "source": "人工检查"
+    },
+    {
+      "id": "EV-10",
+      "incidentId": "INC-B",
+      "step": "上传情况",
+      "result": "已核对：对应时段上传未完成，站内原始记录完整",
+      "note": "",
+      "time": "2026-10-13 00:10",
+      "source": "人工检查"
+    },
+    {
+      "id": "EV-265",
+      "incidentId": "INC-D",
+      "step": "光学窗口",
+      "result": "发现污迹",
+      "note": "",
+      "time": "2026-10-13 04:25",
+      "source": "人工检查"
+    },
+    {
+      "id": "EV-410",
+      "incidentId": "INC-E",
+      "step": "现场储水",
+      "result": "确认储水耗尽",
+      "note": "",
+      "time": "2026-10-13 06:50",
+      "source": "人工检查"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "MT-B",
+      "incidentId": "INC-B",
+      "stationId": "B",
+      "taskIds": [
+        "B-met-obs"
+      ],
+      "name": "恢复上传与核对对应记录",
+      "status": "确认完成",
+      "owner": "站点负责人",
+      "executor": "运维人员",
+      "priority": "优先处理",
+      "reason": "影响观测任务，依据已提交现场核查证据安排维护",
+      "records": [
+        {
+          "text": "已检查并恢复上传，核对站内实际保存的对应记录；已确认并补传站内实际保存的08:00–12:00记录",
+          "time": "2026-10-13 00:30",
+          "role": "运维人员"
+        },
+        {
+          "text": "继续检查上传队列，确认后续新增记录持续到达平台",
+          "time": "2026-10-13 02:15",
+          "role": "运维人员"
+        }
+      ],
+      "checks": [
+        {
+          "name": "设备连接正常",
+          "result": "通过",
+          "note": ""
+        },
+        {
+          "name": "对应记录已核对（仅补传实际保存记录）",
+          "result": "通过",
+          "note": ""
+        },
+        {
+          "name": "后续新增记录连续",
+          "result": "通过",
+          "note": ""
+        },
+        {
+          "name": "气象观测任务在复查范围内恢复",
+          "result": "通过",
+          "note": ""
+        }
+      ],
+      "scope": "核对对应时段记录，并观察维护后90分钟新增记录及现场读数",
+      "conclusion": "本次复查范围内观测恢复，历史缺口与质量标记保留",
+      "evidenceIds": [
+        "EV-5",
+        "EV-10"
+      ],
+      "maintenanceHour": 0.5,
+      "reviewedRecordCount": 2
+    },
+    {
+      "id": "MT-D",
+      "incidentId": "INC-D",
+      "stationId": "D",
+      "taskIds": [
+        "D-li-obs"
+      ],
+      "name": "光学窗口检查与清洁",
+      "status": "确认完成",
+      "owner": "站点负责人",
+      "executor": "运维人员",
+      "priority": "优先处理",
+      "reason": "影响观测任务，依据已提交现场核查证据安排维护",
+      "records": [
+        {
+          "text": "工作人员确认已按厂家要求清洁窗口",
+          "time": "2026-10-13 04:45",
+          "role": "运维人员"
+        }
+      ],
+      "checks": [
+        {
+          "name": "窗口是否清洁",
+          "result": "通过",
+          "note": ""
+        },
+        {
+          "name": "诊断是否正常",
+          "result": "通过",
+          "note": ""
+        },
+        {
+          "name": "新增数据是否通过质量检查",
+          "result": "通过",
+          "note": ""
+        }
+      ],
+      "scope": "核对对应时段记录，并观察维护后90分钟新增记录及现场读数",
+      "conclusion": "本次复查范围内观测恢复，历史缺口与质量标记保留",
+      "evidenceIds": [
+        "EV-265"
+      ],
+      "maintenanceHour": 4.75,
+      "reviewedRecordCount": 1
+    },
+    {
+      "id": "MT-E",
+      "incidentId": "INC-E",
+      "stationId": "E",
+      "taskIds": [
+        "E-et-obs"
+      ],
+      "name": "供水检查与补水维护",
+      "status": "确认完成",
+      "owner": "站点负责人",
+      "executor": "运维人员",
+      "priority": "优先处理",
+      "reason": "影响观测任务，依据已提交现场核查证据安排维护",
+      "records": [
+        {
+          "text": "已按说明书补充蒸馏水、充水排气并恢复供水",
+          "time": "2026-10-13 07:10",
+          "role": "运维人员"
+        }
+      ],
+      "checks": [
+        {
+          "name": "供水与充水排气已核对",
+          "result": "通过",
+          "note": ""
+        },
+        {
+          "name": "具备蒸发条件",
+          "result": "通过",
+          "note": ""
+        },
+        {
+          "name": "后续实际计量与现场读数一致",
+          "result": "通过",
+          "note": ""
+        }
+      ],
+      "scope": "核对对应时段记录，并观察维护后90分钟新增记录及现场读数",
+      "conclusion": "本次复查范围内观测恢复，历史缺口与质量标记保留",
+      "evidenceIds": [
+        "EV-410"
+      ],
+      "maintenanceHour": 7.166666666666667,
+      "reviewedRecordCount": 1
+    }
+  ],
+  "logs": [
+    {
+      "id": "LOG-5",
+      "time": "2026-10-13 00:05",
+      "role": "站点负责人",
+      "incidentId": "INC-B",
+      "action": "核查站内原始记录：记录完整。"
+    },
+    {
+      "id": "LOG-10",
+      "time": "2026-10-13 00:10",
+      "role": "站点负责人",
+      "incidentId": "INC-B",
+      "action": "核查上传情况：已核对：对应时段上传未完成，站内原始记录完整。"
+    },
+    {
+      "id": "LOG-15",
+      "time": "2026-10-13 00:15",
+      "role": "站点负责人",
+      "incidentId": "INC-B",
+      "action": "创建维护任务，携带站点、观测任务及核查证据"
+    },
+    {
+      "id": "LOG-20",
+      "time": "2026-10-13 00:20",
+      "role": "站点负责人",
+      "incidentId": "INC-B",
+      "action": "安排任务：站点负责人 / 运维人员；优先处理；依据：影响观测任务，依据已提交现场核查证据安排维护"
+    },
+    {
+      "id": "LOG-25",
+      "time": "2026-10-13 00:25",
+      "role": "站点负责人",
+      "incidentId": "INC-B",
+      "action": "开始处理"
+    },
+    {
+      "id": "LOG-30",
+      "time": "2026-10-13 00:30",
+      "role": "运维人员",
+      "incidentId": "INC-B",
+      "action": "已检查并恢复上传，核对站内实际保存的对应记录"
+    },
+    {
+      "id": "LOG-125",
+      "time": "2026-10-13 02:05",
+      "role": "站点负责人",
+      "incidentId": "INC-B",
+      "action": "提交恢复复查，演示观察时间推进90分钟；检查项目全部重新待检"
+    },
+    {
+      "id": "LOG-130",
+      "time": "2026-10-13 02:10",
+      "role": "数据审核人员",
+      "incidentId": "INC-B",
+      "action": "复查未通过：后续新增记录连续。；退回继续处理"
+    },
+    {
+      "id": "LOG-135",
+      "time": "2026-10-13 02:15",
+      "role": "运维人员",
+      "incidentId": "INC-B",
+      "action": "继续检查上传队列，确认后续新增记录持续到达平台"
+    },
+    {
+      "id": "LOG-230",
+      "time": "2026-10-13 03:50",
+      "role": "站点负责人",
+      "incidentId": "INC-B",
+      "action": "提交恢复复查，演示观察时间推进90分钟；检查项目全部重新待检"
+    },
+    {
+      "id": "LOG-235",
+      "time": "2026-10-13 03:55",
+      "role": "数据审核人员",
+      "incidentId": "INC-B",
+      "action": "检查设备连接正常：通过 "
+    },
+    {
+      "id": "LOG-240",
+      "time": "2026-10-13 04:00",
+      "role": "数据审核人员",
+      "incidentId": "INC-B",
+      "action": "检查对应记录已核对（仅补传实际保存记录）：通过 "
+    },
+    {
+      "id": "LOG-245",
+      "time": "2026-10-13 04:05",
+      "role": "数据审核人员",
+      "incidentId": "INC-B",
+      "action": "检查后续新增记录连续：通过 "
+    },
+    {
+      "id": "LOG-250",
+      "time": "2026-10-13 04:10",
+      "role": "数据审核人员",
+      "incidentId": "INC-B",
+      "action": "检查气象观测任务在复查范围内恢复：通过 "
+    },
+    {
+      "id": "LOG-255",
+      "time": "2026-10-13 04:15",
+      "role": "数据审核人员",
+      "incidentId": "INC-B",
+      "action": "保存复查范围：核对对应时段记录，并观察维护后90分钟新增记录及现场读数"
+    },
+    {
+      "id": "LOG-260",
+      "time": "2026-10-13 04:20",
+      "role": "数据审核人员",
+      "incidentId": "INC-B",
+      "action": "确认完成：核对对应时段记录，并观察维护后90分钟新增记录及现场读数"
+    },
+    {
+      "id": "LOG-265",
+      "time": "2026-10-13 04:25",
+      "role": "站点负责人",
+      "incidentId": "INC-D",
+      "action": "核查光学窗口：发现污迹。"
+    },
+    {
+      "id": "LOG-270",
+      "time": "2026-10-13 04:30",
+      "role": "站点负责人",
+      "incidentId": "INC-D",
+      "action": "创建维护任务，携带站点、观测任务及核查证据"
+    },
+    {
+      "id": "LOG-275",
+      "time": "2026-10-13 04:35",
+      "role": "站点负责人",
+      "incidentId": "INC-D",
+      "action": "安排任务：站点负责人 / 运维人员；优先处理；依据：影响观测任务，依据已提交现场核查证据安排维护"
+    },
+    {
+      "id": "LOG-280",
+      "time": "2026-10-13 04:40",
+      "role": "站点负责人",
+      "incidentId": "INC-D",
+      "action": "开始处理"
+    },
+    {
+      "id": "LOG-285",
+      "time": "2026-10-13 04:45",
+      "role": "运维人员",
+      "incidentId": "INC-D",
+      "action": "工作人员确认已按厂家要求清洁窗口"
+    },
+    {
+      "id": "LOG-380",
+      "time": "2026-10-13 06:20",
+      "role": "站点负责人",
+      "incidentId": "INC-D",
+      "action": "提交恢复复查，演示观察时间推进90分钟；检查项目全部重新待检"
+    },
+    {
+      "id": "LOG-385",
+      "time": "2026-10-13 06:25",
+      "role": "数据审核人员",
+      "incidentId": "INC-D",
+      "action": "检查窗口是否清洁：通过 "
+    },
+    {
+      "id": "LOG-390",
+      "time": "2026-10-13 06:30",
+      "role": "数据审核人员",
+      "incidentId": "INC-D",
+      "action": "检查诊断是否正常：通过 "
+    },
+    {
+      "id": "LOG-395",
+      "time": "2026-10-13 06:35",
+      "role": "数据审核人员",
+      "incidentId": "INC-D",
+      "action": "检查新增数据是否通过质量检查：通过 "
+    },
+    {
+      "id": "LOG-400",
+      "time": "2026-10-13 06:40",
+      "role": "数据审核人员",
+      "incidentId": "INC-D",
+      "action": "保存复查范围：核对对应时段记录，并观察维护后90分钟新增记录及现场读数"
+    },
+    {
+      "id": "LOG-405",
+      "time": "2026-10-13 06:45",
+      "role": "数据审核人员",
+      "incidentId": "INC-D",
+      "action": "确认完成：核对对应时段记录，并观察维护后90分钟新增记录及现场读数"
+    },
+    {
+      "id": "LOG-410",
+      "time": "2026-10-13 06:50",
+      "role": "站点负责人",
+      "incidentId": "INC-E",
+      "action": "核查现场储水：确认储水耗尽。"
+    },
+    {
+      "id": "LOG-415",
+      "time": "2026-10-13 06:55",
+      "role": "站点负责人",
+      "incidentId": "INC-E",
+      "action": "创建维护任务，携带站点、观测任务及核查证据"
+    },
+    {
+      "id": "LOG-420",
+      "time": "2026-10-13 07:00",
+      "role": "站点负责人",
+      "incidentId": "INC-E",
+      "action": "安排任务：站点负责人 / 运维人员；优先处理；依据：影响观测任务，依据已提交现场核查证据安排维护"
+    },
+    {
+      "id": "LOG-425",
+      "time": "2026-10-13 07:05",
+      "role": "站点负责人",
+      "incidentId": "INC-E",
+      "action": "开始处理"
+    },
+    {
+      "id": "LOG-430",
+      "time": "2026-10-13 07:10",
+      "role": "运维人员",
+      "incidentId": "INC-E",
+      "action": "已按说明书补充蒸馏水、充水排气并恢复供水"
+    },
+    {
+      "id": "LOG-525",
+      "time": "2026-10-13 08:45",
+      "role": "站点负责人",
+      "incidentId": "INC-E",
+      "action": "提交恢复复查，演示观察时间推进90分钟；检查项目全部重新待检"
+    },
+    {
+      "id": "LOG-530",
+      "time": "2026-10-13 08:50",
+      "role": "数据审核人员",
+      "incidentId": "INC-E",
+      "action": "检查供水与充水排气已核对：通过 "
+    },
+    {
+      "id": "LOG-535",
+      "time": "2026-10-13 08:55",
+      "role": "数据审核人员",
+      "incidentId": "INC-E",
+      "action": "检查具备蒸发条件：通过 "
+    },
+    {
+      "id": "LOG-540",
+      "time": "2026-10-13 09:00",
+      "role": "数据审核人员",
+      "incidentId": "INC-E",
+      "action": "检查后续实际计量与现场读数一致：通过 "
+    },
+    {
+      "id": "LOG-545",
+      "time": "2026-10-13 09:05",
+      "role": "数据审核人员",
+      "incidentId": "INC-E",
+      "action": "保存复查范围：核对对应时段记录，并观察维护后90分钟新增记录及现场读数"
+    },
+    {
+      "id": "LOG-550",
+      "time": "2026-10-13 09:10",
+      "role": "数据审核人员",
+      "incidentId": "INC-E",
+      "action": "确认完成：核对对应时段记录，并观察维护后90分钟新增记录及现场读数"
+    }
+  ]
+}

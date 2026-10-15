@@ -1,0 +1,98 @@
+{
+  "layouts": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "document": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "viewport": [
+        2560,
+        1440
+      ],
+      "document": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    {
+      "viewport": [
+        3840,
+        2160
+      ],
+      "document": {
+        "width": 3840,
+        "height": 2160
+      }
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "document": {
+        "width": 1366,
+        "height": 1448
+      }
+    }
+  ],
+  "initialCoordinates": [
+    {
+      "id": "A",
+      "coordinate": [
+        13327169.437770713,
+        3547328.9684579
+      ]
+    },
+    {
+      "id": "B",
+      "coordinate": [
+        13348320.141021434,
+        3555715.770512732
+      ]
+    },
+    {
+      "id": "C",
+      "coordinate": [
+        13361121.88246266,
+        3549263.889550255
+      ]
+    },
+    {
+      "id": "D",
+      "coordinate": [
+        13365018.064640427,
+        3538947.7333108536
+      ]
+    },
+    {
+      "id": "E",
+      "coordinate": [
+        13345537.153751604,
+        3532504.406076818
+      ]
+    },
+    {
+      "id": "F",
+      "coordinate": [
+        13375593.416265788,
+        3540236.792487484
+      ]
+    }
+  ],
+  "selectedDStyle": [
+    {
+      "fill": "#ed8b2c",
+      "stroke": "#1677ff"
+    }
+  ],
+  "oldStatePreserved": true,
+  "engineStable": true,
+  "errors": [],
+  "offlineFallback": true
+}

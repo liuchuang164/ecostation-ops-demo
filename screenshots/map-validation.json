@@ -1,0 +1,51 @@
+{
+  "layouts": [
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "width": 1920,
+      "height": 1080,
+      "mapHeight": 314.203125
+    },
+    {
+      "viewport": [
+        2560,
+        1440
+      ],
+      "width": 2560,
+      "height": 1440,
+      "mapHeight": 645.25
+    },
+    {
+      "viewport": [
+        3840,
+        2160
+      ],
+      "width": 3840,
+      "height": 2160,
+      "mapHeight": 1365.25
+    },
+    {
+      "viewport": [
+        1366,
+        768
+      ],
+      "width": 1366,
+      "height": 1433,
+      "mapHeight": 329
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "width": 390,
+      "height": 2710,
+      "mapHeight": 320
+    }
+  ],
+  "errors": [],
+  "interactions": "真实照片加载、全屏放大、缩小返回、Esc返回、站点选择保留、原生全屏不可用的降级视图均通过"
+}
